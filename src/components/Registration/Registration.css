@@ -1,0 +1,26 @@
+body {
+    background: black;
+    font-size: 15px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15rem;
+}
+
+form label {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background: deeppink;
+    color: white;
+    border: none;
+    padding: 8px;
+    width: 12rem;
+    font-weight: bold;
+}
